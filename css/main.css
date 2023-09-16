@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Playfair Display', sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   background-color: #fff;
   color: #333;
   line-height: 1.6;
@@ -17,6 +17,14 @@ body {
 
 ul {
   list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+.undertext {
+  font-family: 'Playfair Display', sans-serif;
 }
 
 a {
@@ -51,6 +59,16 @@ img {
   padding: 5px 0;
 }
 
+.btn {
+  display: inline-block;
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
 /* Navbar */
 
 .hero .navbar {
@@ -75,7 +93,6 @@ img {
 }
 
 .navbar a {
-  font-family: 'Times New Roman', Georgia, serif;
   padding: 10px 20px;
   margin: 0 5px;
   letter-spacing: 4px;
@@ -152,10 +169,6 @@ img {
   margin: 10px 0;
 }
 
-.flex-columns p {
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .flex-columns p:last-child {
   color: #757575;
 }
@@ -196,4 +209,43 @@ img {
   font-weight: 400;
   margin: 10px 0;
   letter-spacing: 5px;
+}
+
+.contact-info > p {
+  line-height: 1.7;
+  margin: 20px 0;
+}
+
+.contact-info .address {
+  color: #607d8b;
+  font-weight: bolder;
+}
+
+.contact-form {
+  margin: 30px 0;
+}
+
+.contact-form .form-input input {
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+  margin: 5px 0;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  text-indent: 5px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #f1f1f1;
+  color: #000;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 0.87rem;
+}
+
+footer span {
+  text-decoration: underline;
 }
